@@ -5,13 +5,8 @@ require 'akismet/Akismet.class.php';
 
 // https://akismet.com/signup/
 $WordPressAPIKey = '5fbc98de8812';
-$MyBlogURL = 'http://miquelcamps.com/services/adwe/akismet/';
 
-$akismet = new Akismet($MyBlogURL ,$WordPressAPIKey);
-//$akismet->setCommentAuthor($name);
-//$akismet->setCommentAuthorEmail($email);
-//$akismet->setCommentAuthorURL($url);
-//$akismet->setPermalink('http://www.example.com');
+$akismet = new Akismet(false,$WordPressAPIKey);
 $akismet->setCommentContent( $_POST['comment'] );
  
 if($akismet->isCommentSpam()){

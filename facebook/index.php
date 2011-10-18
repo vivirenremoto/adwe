@@ -1,6 +1,6 @@
 <?php
 
-// https://github.com/facebook/php-sdk
+// facebook sdk https://github.com/facebook/php-sdk
 require 'facebook_sdk/src/facebook.php';
 
 
@@ -26,7 +26,7 @@ if ($user) {
   $logoutUrl = $facebook->getLogoutUrl();
 } else {
 
-  // http://developers.facebook.com/docs/reference/api/permissions/
+  // documentación http://developers.facebook.com/docs/reference/api/permissions/
   $par['scope'] = "email, user_birthday, user_likes, user_about_me, user_location";
   $loginUrl = $facebook->getLoginUrl($par);
 }

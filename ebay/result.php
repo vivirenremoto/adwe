@@ -1,11 +1,13 @@
 <?php
 
+// afiliación https://ebaypartnernetwork.com/
+// conseguir app_id de desarrollador https://developer.ebay.com/
 $app_id = 'MiquelCa-078d-4b12-a3a1-dae848176896';
 $limit = 10;
 $campid = 5336676875;
 $customid = 'REGALOS';
 
-
+// documentación http://developer.ebay.com/devzone/shopping/docs/concepts/ShoppingAPI_FormatOverview.html
 $url = 'http://open.api.ebay.com/shopping?appid=' . $app_id . '&version=527&Currency=EUR&ItemsAvailableTo=ES&MaxEntries=' . $limit . '&PageNumber=1&ItemSort=BestMatchPlusPrice&siteid=0&callname=FindItemsAdvanced&responseencoding=xml&callback=true&QueryKeywords=' . urlencode( $_POST['search'] );
 $data = file_get_contents( $url );
 $xml = simplexml_load_string( $data );

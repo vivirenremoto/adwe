@@ -12,6 +12,7 @@
 		<li><a href="facebook">facebook connect</a></li>
 		<li><a href="akismet">¿El comentario es spam?</a></li>
 		<li><a href="ebay">Buscar en ebay.es</a></li>
+		<li><a href="flickr">Flickr</a></li>
 	</ul>
 	
 </body>

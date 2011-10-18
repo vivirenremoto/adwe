@@ -16,6 +16,8 @@
 </head>
 <body>
 
+	<!-- documentación http://code.google.com/apis/chart/ -->
+
 	<h1>Generar gráfico</h1>
 	<form action="javascript:generar_chart()" method="get">
 		<p>etiqueta1 <input id="label1" size="20" value="chrome"/> <input id="value1" size="10" value="80"/></p>
