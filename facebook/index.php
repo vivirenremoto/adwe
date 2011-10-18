@@ -41,12 +41,12 @@ if ($user) {
     <h1>facebook connect</h1>
 
     <?php if ($user): ?>
-      <a href="<?php echo $logoutUrl; ?>">Logout</a>
+      <a href="<?php echo $logoutUrl; ?>">Salir</a>
       <pre><?php print_r( $user_profile ) ?></pre>
       <pre><?php print_r( $user_likes ) ?></pre>
     <?php else: ?>
       <div>
-        <a href="<?php echo $loginUrl; ?>">Login with Facebook</a>
+        <a href="<?php echo $loginUrl; ?>">Facebook connect</a>
       </div>
     <?php endif ?>
     

@@ -8,10 +8,10 @@
 	<h1>Ejemplos ADWE</h1>
 	<ul>
 		<li><a href="maps">¿Existe dirección?</a></li>
-		<li><a href="charts">Buscar en ebay.es</a></li>
+		<li><a href="chart">Generar gráfico y QR</a></li>
 		<li><a href="facebook">facebook connect</a></li>
 		<li><a href="akismet">¿El comentario es spam?</a></li>
-		<li><a href="ebay">Generar gráfico y QR</a></li>
+		<li><a href="ebay">Buscar en ebay.es</a></li>
 	</ul>
 	
 </body>
